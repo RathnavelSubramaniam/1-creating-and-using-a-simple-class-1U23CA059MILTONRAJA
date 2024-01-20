@@ -6,7 +6,6 @@ class person1 {
         firstname = fn;
         lastname= ln;
         age= a;
-
     }
     String getfullname(){
         return firstname+" "+lastname;
@@ -19,8 +18,7 @@ public class Person {
         System.out.println("person1:"+a1.getfullname());
         System.out.println("person2:"+a2.getfullname());
         double b= (a1.age+a2.age)/2;//
-        System.out.println("Average Age;"+b);
-
+        System.out.println("Average Age:"+b);
 
     }
 }
